@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
+    /// <summary>
+    /// Represents ine team in a matchup
+    /// </summary>
     public class MatchupEntryModel
     {
         /// <summary>
@@ -13,7 +16,7 @@ namespace TrackerLibrary
         /// </summary>
         public TeamModel TeamCompeting { get; set; }
         /// <summary>
-        /// Represents the score for this particualr team.
+        /// Represents the score for this particular team.
         /// </summary>
         public double Score { get; set; }
         /// <summary>
